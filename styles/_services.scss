@@ -1,0 +1,25 @@
+.services{
+    color:$base-color;
+    padding: 10px 0px;
+    background:url("../../img/photography.jpeg");
+    background-size:cover; 
+}
+
+#services{
+    font-size: 50px;
+    margin:40px;
+
+}
+
+.boxes{
+    color:$light-color;
+    padding:2px;// Space between each box
+    height:250px;
+}
+
+.section{
+    background-color:#00b89300;
+    padding:20px;
+    width:100%;
+    height:100%;
+}
