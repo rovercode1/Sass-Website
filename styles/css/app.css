@@ -6190,7 +6190,11 @@ button.close {
     .navbar-inverse .btn-link[disabled]:hover, .navbar-inverse .btn-link[disabled]:focus, fieldset[disabled] .navbar-inverse .btn-link:hover, fieldset[disabled] .navbar-inverse .btn-link:focus {
       color: #444; }
 
+.showcase {
+  color: #333;
+  padding: 150px 0px; }
+
 body {
-  padding-top: 100px; }
+  padding-top: 50px; }
 
 /*# sourceMappingURL=app.css.map */
