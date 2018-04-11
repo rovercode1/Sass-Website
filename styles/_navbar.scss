@@ -5,6 +5,7 @@
 //Custom 
 $main-color:#32886e;
 
+
 // Wrapper and base class
 //
 // Provide a static navbar from which we expand to create full-width, fixed, and
@@ -421,7 +422,7 @@ $main-color:#32886e;
         &:hover,
         &:focus {
           color: $navbar-default-link-hover-color;
-          background-color: $navbar-default-link-hover-bg;
+          background-color: lighten($navbar-default-link-hover-color, 90%);;
         }
       }
       > .active > a {
