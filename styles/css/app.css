@@ -6198,10 +6198,7 @@ button.close {
   background-position: 0px, 0px; }
 
 .services {
-  color: #333;
-  padding: 10px 0px;
-  background: #f7f7f7;
-  font-family: 'Open Sans', sans-serif; }
+  background: #f7f7f7; }
 
 .box {
   color: #32886e;
@@ -6234,7 +6231,8 @@ button.close {
   margin: 50px 0; }
 
 .work {
-  margin: 50px 0; }
+  margin: 50px 0;
+  padding: 0; }
 
 .work h3 {
   color: #32886e;
@@ -6244,12 +6242,10 @@ button.close {
 .work p {
   text-align: left; }
 
-.image {
-  width: 100%;
-  height: 400px;
-  margin: 50px 0;
-  background-size: cover;
-  background-position: center; }
+.portfolio-image {
+  background: cadetblue;
+  height: 350px;
+  width: 100%; }
 
 body {
   padding-top: 50px;
