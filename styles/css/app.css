@@ -6236,6 +6236,9 @@ button.close {
 .about-header {
   text-align: center; }
 
+.about-header h1 {
+  font-size: 65px; }
+
 .about-section h3 {
   color: #32886e;
   font-size: 40px;
