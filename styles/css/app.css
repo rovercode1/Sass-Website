@@ -6203,17 +6203,8 @@ button.close {
   background: #f7f7f7;
   font-family: 'Open Sans', sans-serif; }
 
-#services {
-  font-size: 70px;
-  margin: 50px; }
-
-.boxes {
-  padding: 2px;
-  height: 250px; }
-
-.section {
+.box {
   color: #32886e;
-  background-color: #00b89300;
   padding: 20px;
   width: 100%;
   height: 100%;
@@ -6222,29 +6213,13 @@ button.close {
   transition-timing-function: linear;
   font-weight: 600; }
 
-.section:hover {
+.box:hover {
   transform: scale(1.1); }
 
-.section h1, .section p {
+.box h1, .box p {
   color: #333; }
 
-.about-section {
-  color: #333;
-  padding: 50px 0px;
-  font-family: 'Open Sans', sans-serif; }
-
-.about-header {
-  text-align: center; }
-
-.about-header h1 {
-  font-size: 65px; }
-
-.about-section h3 {
-  color: #32886e;
-  font-size: 40px;
-  text-align: left; }
-
-.about-section p {
+.about p {
   text-align: left; }
 
 .image {
@@ -6258,14 +6233,50 @@ button.close {
 .about {
   margin: 50px 0; }
 
+.work {
+  margin: 50px 0; }
+
+.work h3 {
+  color: #32886e;
+  font-size: 40px;
+  text-align: left; }
+
+.work p {
+  text-align: left; }
+
+.image {
+  width: 100%;
+  height: 400px;
+  margin: 50px 0;
+  background-size: cover;
+  background-position: center; }
+
 body {
   padding-top: 50px;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif; }
 
+.base-section {
+  color: #333;
+  padding: 10px 0px;
+  font-family: 'Open Sans', sans-serif; }
+
 .line {
   width: 80%;
   background-color: red;
   border: 1px solid #32886e; }
+
+.base-header {
+  text-align: center;
+  font-size: 70px;
+  margin-bottom: 70px; }
+
+.base-header h1 {
+  font-size: 65px; }
+
+.base-section h3 {
+  color: #32886e;
+  font-size: 40px;
+  text-align: left; }
 
 /*# sourceMappingURL=app.css.map */
