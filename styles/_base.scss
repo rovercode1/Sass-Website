@@ -4,8 +4,30 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.base-section{
+    color: #333;
+    padding: 10px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .line {
     width:80%;
     background-color:red;
     border:1px solid $main-color;
+}
+
+.base-header{
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 70px;
+}
+
+.base-header h1{
+    font-size: 65px;
+}
+
+.base-section h3{
+    color:$main-color;
+    font-size: 40px;
+    text-align: left;
 }
